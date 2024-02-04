@@ -20,9 +20,9 @@ module.exports = withUt({
     extend: {
       colors: {
         primary: {
-          500: '#D4E7C5',
-          50: ' #D4E7C5',
-          DEFAULT: '#4F6F52',
+          500: '#624CF5',
+          50: ' #F6F8FD',
+          DEFAULT: '#624CF5',
           foreground: 'hsl(var(--primary-foreground))',
         },
         coral: {
@@ -30,13 +30,13 @@ module.exports = withUt({
         },
 
         grey: {
-          600: '#0F1035', // Subdued - color name in figma
+          600: '#545454', // Subdued - color name in figma
           500: '#757575',
-          400: '#4F6F52', // Disabled - color name in figma
-          50: '#BFD8AF', // White Grey - color name in figma
+          400: '#AFAFAF', // Disabled - color name in figma
+          50: '#F6F6F6', // White Grey - color name in figma
         },
-        black: '#0F1035',
-        white: '#BFD8AF',
+        black: '#000000',
+        white: '#FFFFFF',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
